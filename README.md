@@ -48,12 +48,3 @@ Build and start the production server:
 npm run build
 npm start
 ```
-
-## Configuration & tips
-
-- `PORT` — backend port (default `4000`).
-- `DEBUG_NHL_FETCH` — set to `1` to enable debug logs for NHL fetch attempts.
-- Avoid storing secrets in `localStorage`; only UI preferences (collapse state) belong there.
-- External API availability depends on providers; if a provider is down the corresponding section will show no games.
-
-If you'd like the collapse state persisted across reloads, I can add `localStorage` persistence to the UI.
